@@ -1,3 +1,4 @@
+package trabalhopoo;
 
 import java.io.File; 
 import java.io.FileNotFoundException;
@@ -12,8 +13,8 @@ public class FitaMain {
         int totalFitas = 0, totalFitasValidas = 0, totalFitasInvalidas = 0;
         List<Integer> linhasInvalidas = new ArrayList<>();
 
-        String caminhoArquivoOriginal = "C:\\Users\\alunos\\Desktop\\bernardoPOO\\ProjetPOO\\src\\FitaDNA.txt";
-        String caminhoArquivoSaida = "C:\\\\Users\\\\alunos\\\\Desktop\\\\bernardoPOO\\\\ProjetPOO\\\\src\\\\DNAFINAL.txt";
+        String caminhoArquivoOriginal = "C:\\Users\\alunos\\Desktop\\trabalhoPOO\\trabalhopoo\\src\\trabalhopoo\\DNA.txt";
+        String caminhoArquivoSaida = "C:\\Users\\alunos\\Desktop\\trabalhoPOO\\trabalhopoo\\src\\trabalhopoo\\DNAfinal.txt";
 
         try {
             File arquivoEntrada = new File(caminhoArquivoOriginal);
